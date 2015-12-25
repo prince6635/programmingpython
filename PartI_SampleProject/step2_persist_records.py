@@ -1,10 +1,10 @@
-from lib import dump_db_file
-from lib import initdata
-from lib import make_db_file
-from lib import update_db_file
-from lib import make_db_pickle
-from lib import make_db_pickle_file_per_record
-from lib import make_db_shelve
+from step2_lib import dump_db_file
+from step2_lib import initdata
+from step2_lib import make_db_file
+from step2_lib import update_db_file
+from step2_lib import make_db_pickle
+from step2_lib import make_db_pickle_file_per_record
+from step2_lib import make_db_shelve
 
 print("regular save to files")
 make_db_file.storeDbase(initdata.db)
