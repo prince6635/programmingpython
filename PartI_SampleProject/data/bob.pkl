@@ -1,0 +1,16 @@
+(dp0
+S'job'
+p1
+S'dev'
+p2
+sS'pay'
+p3
+I30000
+sS'age'
+p4
+I42
+sS'name'
+p5
+S'Bob Smith'
+p6
+s.
