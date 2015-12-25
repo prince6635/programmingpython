@@ -10,9 +10,10 @@ and no need to manually parse a complex format to get them back.
 Pickling is similar in spirit to XML representations
 """
 
-from initdata import db
-from util import generatePathUnderDataFolder
 import pickle
+
+from PartI_SampleProject.util import generatePathUnderDataFolder
+from initdata import db
 
 DEFAULT_PICKLE_FILENAME = generatePathUnderDataFolder('people-pickle')
 

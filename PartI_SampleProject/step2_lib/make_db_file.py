@@ -1,5 +1,6 @@
 from __future__ import print_function # enable the Python 3 syntax if you are using Python 2.6 or 2.7
-from util import generatePathUnderDataFolder
+
+from PartI_SampleProject.util import generatePathUnderDataFolder
 
 """
 Save in-memory database object to a file with custom formatting;

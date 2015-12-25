@@ -7,9 +7,12 @@ using each record's original key as its filename with a .pkl appended
 (it creates the files bob.pkl, sue.pkl, and tom.pkl in the current working directory).
 """
 
-from util import generatePathUnderDataFolder
+import glob
+import pickle
+
 import initdata
-import pickle, glob
+from PartI_SampleProject.util import generatePathUnderDataFolder
+
 
 def storeDbase():
     for (key, record) in [('bob', initdata.bob), ('tom', initdata.tom), ('sue', initdata.sue)]:

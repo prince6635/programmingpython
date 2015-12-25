@@ -8,10 +8,10 @@ splits up stored re-cords and fetches and updates only those records that are ac
 In this way, shelves provide utility similar to per-record pickle files, but they are usually easier to code.
 """
 
-import initdata
 import shelve
 
-from util import generatePathUnderDataFolder
+import initdata
+from PartI_SampleProject.util import generatePathUnderDataFolder
 
 DEFAULT_FILE_NAME = generatePathUnderDataFolder('people-shelve')
 
