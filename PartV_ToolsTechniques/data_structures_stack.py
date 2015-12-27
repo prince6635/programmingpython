@@ -25,10 +25,10 @@ for mod in (stack.Stack, stack.StackOptimized, stack.StackFinal):
     print('%s: ' % mod.__name__, end=' ')
     print(testWithTimer(reps, stackOperations, mod))
 
-# python data_structures.py 200 200 200
-# python data_structures.py 200 50 200
-# python data_structures.py 200 200 50
-# python data_structures.py 200 200 0
+# python data_structures_stack.py 200 200 200
+# python data_structures_stack.py 200 50 200
+# python data_structures_stack.py 200 200 50
+# python data_structures_stack.py 200 200 0
 """
 The results show that the tuple-based stack (stack3) performs better
 when we do more pushing and popping, but worse if we do much indexing.
