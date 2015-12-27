@@ -1,0 +1,3 @@
+from datastructures_lib import binary_search_tree
+
+binary_search_tree.testBST()
