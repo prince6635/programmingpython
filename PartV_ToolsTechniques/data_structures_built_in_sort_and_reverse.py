@@ -1,0 +1,4 @@
+from datastructures_lib import built_in_sort_and_reverse
+
+built_in_sort_and_reverse.testBuiltInSort()
+built_in_sort_and_reverse.testBuiltinReverse()
